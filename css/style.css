@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.86);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Début Nav*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.helium {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.menu {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sous-menu {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*Fin Nav*/
+
+/*Début Main*/
+img {
+    width: 100vh;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right {
+    padding-right: 0px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.h2-article {
+    color: #2C2891;
+    margin: -15px 0;
+}
+
+p {
+    color: #fff;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+/*Fin Main*/
+
+/*Début Footer*/
+.footer {
+    border-radius: 10px;
+    margin: 0 5px 5px 10px;
+    background-color: #000;
+}
+
+.titre-footer {
+    /*border: solid #fff;*/
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 465px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.btn-logo {
+    /*border: solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    /*border: solid blue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-btn {
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background: #2940D3;
+    padding: 10px 15px ;
+    font-size: 10px;
+    margin: 0 0 10px 15px;
+    font-weight: bolder;
+}
+
+.btn-btn1 {
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background: #2940D3;
+    padding: 10px 15px ;
+    font-size: 10px;
+    margin: 0 0 10px 15px;
+    
+    font-weight: bolder;
+}
+
+.img-logo {
+    height: 30px;
+    width: 70px;
+}
+
+.logo {
+    /*border: solid blue;*/
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 110px;
+
+}
+
+/*Fin Footer*/
